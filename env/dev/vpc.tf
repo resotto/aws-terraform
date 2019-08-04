@@ -15,11 +15,6 @@ resource "aws_route_table" "dev_route" {
   }
 }
 
-resource "aws_route_table_association" "dev_association" {
-  subnet_id      = aws_subnet.dev_public.id
-  route_table_id = aws_route_table.dev_route.id
-}
-
 resource "aws_subnet" "dev_public" {
   vpc_id     = aws_vpc.dev_vpc.id
   cidr_block = "10.0.1.0/24"
@@ -27,5 +22,10 @@ resource "aws_subnet" "dev_public" {
   tags = {
     Name = "Dev_Public"
   }
+}
+
+resource "aws_route_table_association" "dev_association" {
+  subnet_id      = aws_subnet.dev_public.id
+  route_table_id = aws_route_table.dev_route.id
 }
 
