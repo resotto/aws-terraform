@@ -1,13 +1,14 @@
 # Commands
-terraform
-- init                    # source module copy, backend initialization, child module installation, and plugin installation
-- console                 # interactive REPL
-- fmt --recursive         # format indents in ./\*/\*.tf file
-- get -update             # download and update modules mentioned in the root module
-- plan [-destroy]         # dry run
-- apply
-- show                    # check state
-- destroy [-auto-approve]
+```
+terraform init                    # source module copy, backend initialization, child module installation, and plugin installation
+terraform console                 # interactive REPL
+terraform fmt --recursive         # format indents in ./\*/\*.tf file
+terraform get -update             # download and update modules mentioned in the root module
+terraform plan [-destroy]         # dry run
+terraform apply
+terraform show                    # check state
+terraform destroy [-auto-approve]
+```
 
 # Separating environment directory
 - For separating .tfstate file, which stores state about infrastructure and configuration.
