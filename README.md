@@ -2,7 +2,7 @@
 ```
 terraform init                    # source module copy, backend initialization, child module installation, and plugin installation
 terraform console                 # interactive REPL
-terraform fmt --recursive         # format indents in ./\*/\*.tf file
+terraform fmt --recursive         # format indents in ./*/*.tf
 terraform get -update             # download and update modules mentioned in the root module
 terraform plan [-destroy]         # dry run
 terraform apply
@@ -11,7 +11,7 @@ terraform destroy [-auto-approve]
 ```
 
 # Separating environment directory
-- For separating .tfstate file, which stores state about infrastructure and configuration.
+- For separating .tfstate, which stores state about infrastructure and configuration.
 
 # How to build each environment
 Moving to `env/prod` or `env/dev`, and running following commands:
