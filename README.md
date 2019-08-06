@@ -1,7 +1,6 @@
 <h1 align="center">aws-terraform</h1>
 
 <p align="center">
-  <a href="https://twitter.com/home?status=AWS%20Terraform%20Rocket%20Start%20by%20%40_resotto_%20https://github.com/resotto/aws-terraform"><img src="https://img.shields.io/badge/twitter-tweet-blue.svg"/></a>
   <a href="https://twitter.com/_resotto_"><img src="https://img.shields.io/badge/feedback-@_resotto_-blue.svg" /></a>
 </p>
 
