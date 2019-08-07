@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://twitter.com/_resotto_"><img src="https://img.shields.io/badge/feedback-@_resotto_-blue.svg" /></a>
+  <a href="https://github.com/resotto/aws-terraform/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg" /></a>
 </p>
 
 <p align="center">
@@ -13,6 +14,9 @@
 </p>
 
 ---
+This guide is for who is new to Terraform.  
+Following this guide, you can learn how to operate Terraform commands.
+
 **NOTE**
 - This guide doesn't cost at all now (2019/8/6), but in the future, that might just be the case.   Even if that happens, it wouldn't cost 1 sandwich.
 ---
